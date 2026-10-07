@@ -1,0 +1,68 @@
+<!--
+  Hand-written snapshot modelled on chatgpt.com markup (Oct 2026).
+  Replace with / add real saved pages (DevTools → Copy outerHTML of <main>) whenever extraction breaks.
+-->
+<main>
+  <article data-testid="conversation-turn-1">
+    <h5 class="sr-only">You said:</h5>
+    <div data-message-author-role="user" data-message-id="u1">
+      <div class="flex"><img src="https://files.oaiusercontent.com/file-abc" alt="Uploaded image" width="300" /></div>
+      <div class="whitespace-pre-wrap">วางแผนเที่ยวเชียงใหม่ 3 วัน
+Plan 3 days in Chiang Mai. Budget: 2*3*4 = 24 THB_per_day</div>
+    </div>
+    <div><button>Copy</button><button>Edit message</button></div>
+  </article>
+
+  <article data-testid="conversation-turn-2">
+    <h6 class="sr-only">ChatGPT said:</h6>
+    <div data-message-author-role="assistant" data-message-id="a1">
+      <div class="markdown prose">
+        <h3>Day 1 – Old City temples</h3>
+        <ul>
+          <li><p><strong>Wat Phra Singh</strong> in the morning</p></li>
+          <li>วัดเจดีย์หลวง in the afternoon</li>
+        </ul>
+        <p>Count it with <code>python</code>, see <a href="https://example.com/guide">the guide</a>.</p>
+        <pre><div class="contain-inline-size"><div class="flex items-center">python</div><div class="sticky"><button>Copy code</button></div><div class="overflow-y-auto"><code class="whitespace-pre! language-python">days = 3
+print(days * 1500)
+</code></div></div></pre>
+        <pre><div><div class="flex items-center">bash</div><div class="overflow-y-auto"><code>echo "no language class"</code></div></div></pre>
+        <div class="overflow-x-auto">
+          <table>
+            <thead><tr><th>Day</th><th>Cost</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>1,500 ฿</td></tr>
+              <tr><td>2</td><td><em>1,200</em> | 300</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Inline math <span class="katex"><span class="katex-mathml"><math><semantics><mrow></mrow><annotation encoding="application/x-tex">E = mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true">E=mc2</span></span> works.</p>
+        <span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow></mrow><annotation encoding="application/x-tex">\sum_{i=1}^{n} i = \frac{n(n+1)}{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true">garbled glyphs</span></span></span>
+      </div>
+    </div>
+    <div role="toolbar"><button>Like</button><button>Regenerate</button></div>
+  </article>
+
+  <article data-testid="conversation-turn-3">
+    <div data-message-author-role="tool" data-message-id="t1"><div class="markdown"><p>hidden tool output</p></div></div>
+  </article>
+
+  <article data-testid="conversation-turn-4">
+    <div data-message-author-role="assistant" data-message-id="a2">
+      <div class="markdown prose"><p>Also consider Doi Suthep.</p></div>
+    </div>
+  </article>
+
+  <article data-testid="conversation-turn-5">
+    <div data-message-author-role="user" data-message-id="u2">
+      <div class="whitespace-pre-wrap"># not a heading
+- not a list</div>
+    </div>
+  </article>
+
+  <article data-testid="conversation-turn-6">
+    <div data-message-author-role="assistant" data-message-id="a3">
+      <div class="markdown prose"><ol><li>First</li><li>Second</li></ol></div>
+    </div>
+  </article>
+</main>
